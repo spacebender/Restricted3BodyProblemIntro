@@ -2,17 +2,24 @@
 I am new to Git and its techniques . However I have managed to add what I can to help.
 
 
-This repository holds some introductory codes to Restricted Three Body Problem. Please read all the comments section in the MAINLyapOrb.m file before running the program
+This repository holds some introductory codes to Restricted Three Body Problem. Please read all the comments in the commenst section in the MAINLyapOrbit.m file before running the program
 
 
 Currently this file can 
-1) Generate the family of Lyapunov Orbits and stores some parameters like Energy , Monodromy Matrix etc for the family , Plot Surface, Contour and Lyapunov family for Sun and all nine planets and Planets and some of their moons
+1) Generate the family of Lyapunov Orbits and stores some parameters like Energy , Monodromy Matrix etc for the family.
 
-2) You can change the figure properties inside the plot functions as per convinience of view . 
+2) Plot Surface, Contour and Lyapunov family for Sun and all nine planets/Planets and some of their moons.
 
-3) I have provided enough documentation, if you feel clarity is not good please contact me . 
+3) All one needs to do is enter the "UserDat" field, mainly the primary and secondary, to get the outputs.
 
-4) Lyapunov periodic orbit manifolds will be added later.
+4) Store all the parameters under structure neatly and its readable.
+
+Also,
+1) You can change the figure properties inside the plot functions as per convinience of view . 
+
+2) I have provided enough documentation, if you feel clarity is not good please contact me . 
+
+3) Lyapunov periodic orbit manifolds will be added later.
 
 At this point I would like to thank 
 
@@ -26,9 +33,9 @@ Directly
 **Joshua Fitzgerald** -  Prof.Ross's student for clearing some doubts
 
 
-**Ari Rubinsztejn** - His repository and website provodes immense animations in dynamical systems 
+**Ari Rubinsztejn** - His repository and website provides immense animations in dynamical systems 
 
-(Please Visit - https://gereshes.com/) for cool animations in dynamical systems
+(Please Visit - https://gereshes.com/) for cool animations in dynamical systems and follow it for upadtes.
 
 
 **Shankar Kulumani** -  His git repo for some parts of codes to undertstand manifolds and poincare sections

@@ -38,7 +38,9 @@ Directly
 (Please Visit - https://gereshes.com/) for cool animations in dynamical systems and follow it for upadtes.
 
 
-**Shankar Kulumani** -  His git repo for some parts of codes to undertstand manifolds and poincare sections
+**Shankar Kulumani** -  His git repo for some parts of codes to undertstand manifolds and poincare sections.
+
+Vist https://github.com/skulumani for his git repositories
 
 Indirectly
 -------------

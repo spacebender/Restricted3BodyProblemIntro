@@ -38,6 +38,8 @@ Please Vist - https://engineering.purdue.edu/people/kathleen.howell.1/index.html
 
 I will add periodic orbit manifolds later - As I lack clarity in continuation methods for Halo orbits . Specifucally Pseudo arc length method. 
 
+***************************************************************
+
 I like to help and be helped 
 
 The reson to start this repo is becz of difficulties I faced to get help. Irrespective of me continuing research in this field I have 

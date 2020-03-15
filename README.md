@@ -9,6 +9,8 @@ Currently this file can
 
 3) I have provided enough documentation, if you feel clarity is not good please contact me . 
 
+4) Lyapunov periodic orbit manifolds will be added later.
+
 At this point I would like to thank 
 
 Directly

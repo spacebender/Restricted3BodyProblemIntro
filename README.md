@@ -16,6 +16,7 @@ At this point I would like to thank
 Directly
 --------
 Prof. Shane Ross - His codes and book helped a lot and my primary reference is that book . I have referenced the name of the book inide the code.
+
 (Please visit http://www.dept.aoe.vt.edu/~sdross/ - for the vast areas of dynamical systems research
 
 
@@ -23,6 +24,7 @@ Joshua Fitzgerald -  Prof.Ross's student for clearing some doubts
 
 
 Ari Rubinsztejn - His repository and website provodes immense animations in dynamical systems 
+
 (Please Visit - https://gereshes.com/) for cool animations
 
 
@@ -30,7 +32,8 @@ Shankar Kulumani -  His git repo for some parts of codes to undertstand manifold
 
 Indirectly
 -------------
-Professor KC Howell's research groups thesis 
+Professor KC Howell's research groups thesis ,
+
 Please Vist - https://engineering.purdue.edu/people/kathleen.howell.1/index.html- for papers and thesis
 
 I will add periodic orbit manifolds later - As I lack clarity in continuation methods for Halo orbits . Specifucally Pseudo arc length method. 

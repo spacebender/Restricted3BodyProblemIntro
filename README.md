@@ -1,5 +1,5 @@
 # Restricted3BodyProblemIntro
-I am new to Git and its techniques . However I have managed to add what I can.
+I am new to Git and its techniques . However I have managed to add what I can to help.
 
 
 This repository holds some introductory codes to Restricted Three Body Problem. Please read all the comments section in the MAINLyapOrb.m file before running the program
@@ -54,4 +54,4 @@ supplied this repo for the ones who like to start researchin this field/are new 
 
 Thank You ,
 
-Karthi
+Karthi. G. Ramachandran

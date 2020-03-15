@@ -15,28 +15,28 @@ At this point I would like to thank
 
 Directly
 --------
-Prof. Shane Ross - His codes and book helped a lot and my primary reference is that book . I have referenced the name of the book inide the code.
+**Prof. Shane Ross** - His codes and book helped a lot and my primary reference is that book . I have referenced the name of the book inide the code.
 
 (Please visit http://www.dept.aoe.vt.edu/~sdross/ - for the vast areas of dynamical systems research
 
 
-Joshua Fitzgerald -  Prof.Ross's student for clearing some doubts
+**Joshua Fitzgerald** -  Prof.Ross's student for clearing some doubts
 
 
-Ari Rubinsztejn - His repository and website provodes immense animations in dynamical systems 
+**Ari Rubinsztejn** - His repository and website provodes immense animations in dynamical systems 
 
-(Please Visit - https://gereshes.com/) for cool animations
+(Please Visit - https://gereshes.com/) for cool animations in dynamical systems
 
 
-Shankar Kulumani -  His git repo for some parts of codes to undertstand manifolds and poincare sections
+**Shankar Kulumani** -  His git repo for some parts of codes to undertstand manifolds and poincare sections
 
 Indirectly
 -------------
-Professor KC Howell's research groups thesis ,
+**Professor KC Howell**'s research groups thesis ,
 
 Please Vist - https://engineering.purdue.edu/people/kathleen.howell.1/index.html- for papers and thesis
 
-I will add periodic orbit manifolds later - As I lack clarity in continuation methods for Halo orbits . Specifucally Pseudo arc length method. 
+I will add periodic orbit manifolds later - As I lack clarity in continuation methods for Halo orbits . Specifically Pseudo arc length method. 
 
 ***************************************************************
 
@@ -45,7 +45,9 @@ I like to help and be helped
 The reson to start this repo is becz of difficulties I faced to get help. Irrespective of me continuing research in this field I have 
 supplied this repo for the ones who like to start and who lack reference info. 
 
-Please feel free to contact me at "yfk2928@gmail.com" for suggestion/help/questions/anything you want.
+**Use _MATLAB 2017b_ or later.**
+
+**Please feel free to contact me at "yfk2928@gmail.com" for suggestion/help/questions/anything you want.**
 
 Thank You ,
 

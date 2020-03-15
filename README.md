@@ -32,7 +32,7 @@ Directly
 
 Indirectly
 -------------
-**Professor KC Howell**'s research groups thesis ,
+**Professor KC Howell** - For the research groups thesis and research that are placed online ,
 
 Please Vist - https://engineering.purdue.edu/people/kathleen.howell.1/index.html- for papers and thesis
 

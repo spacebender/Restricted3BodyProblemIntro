@@ -46,9 +46,8 @@ Indirectly
 
 Please Vist - https://engineering.purdue.edu/people/kathleen.howell.1/index.html- for papers and thesis
 
-I will add periodic orbit manifolds later - As I lack clarity in continuation methods for Halo orbits . Specifically Pseudo arc length method. 
-
 ***************************************************************
+I will add periodic orbit manifolds later - As I lack clarity in continuation methods for Halo orbits . Specifically Pseudo arc length method. 
 
 I like to help and be helped 
 

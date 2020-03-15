@@ -45,8 +45,8 @@ I will add periodic orbit manifolds later - As I lack clarity in continuation me
 
 I like to help and be helped 
 
-The reson to start this repo is becz of difficulties I faced to get help. Irrespective of me continuing research in this field I have 
-supplied this repo for the ones who like to start and who lack reference info. 
+The reason to start this repo is becz of difficulties I faced to get help and its too complicated to work alone without peer help and discussions. Irrespective of me continuing research in this field I have 
+supplied this repo for the ones who like to start researchin this field/are new to MATLAB/ anybody who dont find appropriate codes with references.   
 
 **Use _MATLAB 2017b_ or later.**
 

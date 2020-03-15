@@ -1,7 +1,13 @@
 # Restricted3BodyProblemIntro
-This repository holds some introductory codes to Restricted Three Body Problem. Please read all the comments section in the MAINLyapOrb.m file
-before running the program
+This repository holds some introductory codes to Restricted Three Body Problem. Please read all the comments section in the MAINLyapOrb.m file before running the program
 
+
+Currently this file can 
+1) Generate the family of Lyapunov Orbits and stores some parameters like Energy , Monodromy Matrix etc for the family , Plot Surface, Contour and Lyapunov family for Sun and all nine planets and Planets and some of their moons
+
+2) You can change the figure properties inside the plot functions as per convinience of view . 
+
+3) I have provided enough documentation, if you feel clarity is not good please contact me . 
 
 At this point I would like to thank 
 
@@ -32,4 +38,7 @@ I like to help and be helped
 The reson to start this repo is becz of difficulties I faced to get help. Irrespective of me continuing research in this field I have 
 supplied this repo for the ones who like to start and who lack reference info. 
 
-Please feel free to contact me at "yfk2928@gmail.com" for suggestion/help/questions/anything you want
+Please feel free to contact me at "yfk2928@gmail.com" for suggestion/help/questions/anything you want.
+
+Thank You 
+Karthi

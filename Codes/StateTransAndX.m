@@ -6,10 +6,11 @@ This file hands over the state transistion matrix (STM)
 
 Inputs
 ------
-1) X_guess - Guess vector (1 x 6) or (1 x 4)
-2) fun - function to be integrated(Actually the variational equation)
-3) tend - Stop time of integration
-3) options - ODE options(See "GlobalData")
+1) G_var    - Requisite Global data
+2) X_guess  - Guess vector (1 x 6) or (1 x 4)
+3) fun      - function to be integrated(Actually the variational equation)
+4) tend     - Stop time of integration
+
 
 Outputs
 --------

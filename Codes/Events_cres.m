@@ -2,7 +2,7 @@
 ...
 Created on  24/2/2020 19:06
 
-ODE Events function
+ODE Events function - to stop integration at required value
 
 Inputs
 ------

@@ -1,4 +1,5 @@
 % Created 24/2/2020 18:33
+% Variational equations that needs to be integrated
 function [VarDot] = VarEqAndSTMDOT(t,VarInit,mu)
 N = length(VarInit);
 % G_var = GlobalData;

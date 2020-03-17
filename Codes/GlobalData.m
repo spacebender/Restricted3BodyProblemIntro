@@ -64,10 +64,10 @@ function G_var = GlobalData(Primary,Secondary)
 
 G_var.Constants.mu              = SunPlanetMoonParameters(Primary,Secondary);
 G_var.Constants.gam             = (G_var.Constants.mu/3)^(1/3) ;
-G_var.Constants.Ax1             = 2e-2*G_var.Constants.gam;
-G_var.Constants.Ax2             = 2*G_var.Constants.Ax1;
+G_var.Constants.Ax1             = 2e-2*G_var.Constants.gam;% initial amplitude 1 for seed orbit
+G_var.Constants.Ax2             = 2*G_var.Constants.Ax1; % initial amplitude 2 for second seed orbit
 
-G_var.LagPts                    = equil_pts_position(G_var.Constants.mu);
+G_var.LagPts                    = equil_pts_position(G_var.Constants.mu); % see "equil_pts_position.m"
 
 
 

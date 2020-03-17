@@ -74,22 +74,23 @@ if length(X_Guess)<6
     del_yf = xb(end,2) ;
     del_xDotf =xb(end,3); 
     del_yDotf = xb(end,4); 
-    Fx = del_xDotf;
+    Fx = del_xDotf;         % Constraint vector 
 elseif X_Guess(3) == 0
     del_yf = xb(end,2) ;
     del_xDotf =xb(end,4); 
     del_yDotf = xb(end,5); 
-    Fx = del_xDotf;
+    Fx = del_xDotf;         % Constraint vector 
 else 
     del_yf = xb(end,2) ;
     del_xDotf =xb(end,4) ;
     del_zDotf = xb(end,6);
-    Fx = [del_xDotf;del_zDotf];
+    Fx = [del_xDotf;del_zDotf]; % Constraint vector 
     
 end
 
 
-% Plot If Required
+% Plot the correction(Just to see how differential correction works) If
+% Required - adopted from Prof SD Ross code 
 if Plot == 1
 if length(X_Guess)<6 || X_Guess(3) == 0
 
@@ -139,6 +140,7 @@ else
     z_DotDotf = X_DotDotf(6);
     DF = ([PHItf(4,3) PHItf(4,5);PHItf(6,3) PHItf(6,5)] - (1/y_Dotf)*[x_DotDotf;z_DotDotf]*[PHItf(2,3) PHItf(2,5)]);
     Xfree = Xfree - DF\Fx;
+    % Guess Update 
     X_Guess(3) = Xfree(1);
     X_Guess(5) = Xfree(2);
 end

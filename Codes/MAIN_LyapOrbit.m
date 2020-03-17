@@ -111,17 +111,26 @@ UserDat.CorrectionPlot = 0;%input('Do You want to see correction plot of differe
 
 tic
 %% Get the GlobalData
+% ---------------------
+
+
 G_var                  = GlobalData(UserDat.Primary,UserDat.Secondary);
 fprintf('mu value %f\n',G_var.Constants.mu)
 %% Perform Differential Correction and Continuation and get all the orbit parameters
+% ----------------------------------------------------------------------------------
+
+
 % Only user data and global variables are required to continue.
 [LyapOrb]              = LyapOrbitParameters(UserDat,G_var);
 %toc - takes approx 89 secs
 %% Save the Corrected IC's in .mat file
+% --------------------------------------
+
+
 fprintf('\n\n')
 fprintf('Saving the data...\n')
 fprintf('\n')
-save LyapOrbPar LyapOrb % used for plotting below
+save LyapOrbPar LyapOrb % used for plotting (Using the saved file saves time)
                   %% ---------------------Plots Section-----------------------------
 % Note this "Plotter" uses the saved data internally so that one need not run every time to get
 % the plot 

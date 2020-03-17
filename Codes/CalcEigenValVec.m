@@ -1,4 +1,4 @@
-% This is taken from SD Ross website available free. 
+% This is taken from SD Ross website available for free. 
 % [sn,un,cn,Ws,Wu,Wc] = eigGet(A,discrete) ;
 %
 % Compute the eigenvalues and eigenvectors of the matrix A spanning the 
@@ -28,7 +28,7 @@ Wc=[];
 
 % arbitrary small displacement for use in discrete case 
 delta = 1.e-4;  % <== maybe needs tweeking?
-[M,dum]=size(A);
+[M,~]=size(A);
 [V,D]  =eig(A); % obtain eigenvectors (V) and eigenvalues (D) of matrix A
 V = cleanUpMatrix(V) ;
 D = cleanUpMatrix(D) ;
@@ -80,7 +80,7 @@ for k = 1:M
 	end
 end
 
-function A = cleanUpMatrix(A) ;
+function A = cleanUpMatrix(A) 
 
 %        A = cleanUpMatrix(A) ;
 %
@@ -89,12 +89,12 @@ function A = cleanUpMatrix(A) ;
 
 TOL=1.e-14;
 
-for k=1:length(A),
+for k=1:length(A)
   for l = 1:length(A)
-    if abs(real(A(k,l))) < TOL,
-      A(k,l)=i*imag(A(k,l)) ;
+    if abs(real(A(k,l))) < TOL
+      A(k,l)=1i*imag(A(k,l)) ;
     end
-    if abs(imag(A(k,l))) < TOL,
+    if abs(imag(A(k,l))) < TOL
       A(k,l)=real(A(k,l)) ;
     end
   end
@@ -102,16 +102,16 @@ end
 
 
 
-function A=RemoveInfinitesimals(A);
+function A=RemoveInfinitesimals(A)
 
 % Remove all entries with absolute value smaller than TOL
 TOL=1.e-14;
 
-for k=1:length(A),
-	if abs(real(A(k))) < TOL,
+for k=1:length(A)
+	if abs(real(A(k))) < TOL
 		A(k)=A(k) - real(A(k));
 	end
-	if abs(imag(A(k))) < TOL,
-		A(k)=A(k) - i*imag(A(k));
+	if abs(imag(A(k))) < TOL
+		A(k)=A(k) - 1i*imag(A(k));
 	end
 end

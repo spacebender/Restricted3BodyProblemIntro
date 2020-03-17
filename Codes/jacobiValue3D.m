@@ -27,7 +27,7 @@ Modified to accept 2D and 3D value
 %}
 function [jacobiConst] = jacobiValue3D(X,mu)
 
-mu1 = 1-mu;
+
 if length(X)>4
 type = 'ThreeDim';
 else

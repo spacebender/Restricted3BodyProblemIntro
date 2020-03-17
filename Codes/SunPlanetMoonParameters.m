@@ -22,7 +22,8 @@ Outputs
 
 Reference
 -----------
-All the values are taken from NASA Planetary facts.
+All the values are taken from NASA Planetary facts(can be obtained online).
+Some more will be added later
 ...
 %}
 function [mu] = SunPlanetMoonParameters(Primary,Secondary)

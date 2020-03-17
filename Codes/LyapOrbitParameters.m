@@ -74,7 +74,7 @@ fprintf('\nThe Guess X value is : [%f %f %f %f %f %f]\n',XGuessL.one)
 
 
 fprintf('\n')
-fprintf('Determining th orbits Parameters ..\n')
+fprintf('Calculating the orbits Parameters ..\n')
 fprintf('\n')
 
 Energy(family,1) = jacobiValue3D(xCorrec(family,:),mu);
@@ -82,14 +82,6 @@ Energy(family,1) = jacobiValue3D(xCorrec(family,:),mu);
 [Eigens(family).S_EigVal,Eigens(family).US_EigVal,Eigens(family).C_Val,Eigens(family).S_EigVec,...
     Eigens(family).US_EigVec,Eigens(family).C_EigVec] = CalcEigenValVec(Monodromy(:,:,family),1) ;
 
-% fprintf('Energy of the orbit:- %d\n',Energy(family,1))
-% fprintf('Monodromy Matrix:- %d\n',Monodromy(:,:,family))
-% fprintf('Stable Eigen Value:- %d\n',Eigens(family).S_EigVal)
-% fprintf('Unstable Eigen Value:- %d\n',Eigens(family).US_EigVal)
-% fprintf('Center Eigen Value:- %d\n',Eigens(family).C_Val)
-% fprintf('Stable Eigen Vector:- %d\n',Eigens(family).S_EigVec)
-% fprintf('Unstable Eigen Vector:- %d\n',Eigens(family).US_EigVec)
-% fprintf('Center Eigen Vector:- %d\n',Eigens(family).C_EigVec)
 
 
 family = 2;
@@ -100,7 +92,7 @@ fprintf('\nThe Guess X value is : [%f %f %f %f %f %f]\n',XGuessL.two)
 [tCorrec(family,1),xCorrec(family,:),DF(:,:,family)] = DiffCorrec(XGuessL.two,CorrecPlot,G_var);
 
 fprintf('\n')
-fprintf('Determining th orbits Parameters ..\n')
+fprintf('Calculating the orbits Parameters ..\n')
 fprintf('\n')
 
 Energy(family,1) = jacobiValue3D(xCorrec(family,:),mu);
@@ -130,7 +122,7 @@ fprintf('\nThe Guess X value is : [%f %f %f %f %f %f]\n',GuessX)
 [tCorrec(family,1),xCorrec(family,:),DF(:,:,family)] = DiffCorrec(GuessX,CorrecPlot,G_var);
 
 fprintf('\n')
-fprintf('Determining th orbits Parameters ..\n')
+fprintf('Calculating the orbits Parameters ..\n')
 fprintf('\n')
 
 Energy(family,1) = jacobiValue3D(xCorrec(family,:),mu);

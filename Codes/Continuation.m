@@ -40,6 +40,8 @@ Note: These references DONOT have different methods , underlying concept is Newt
 method, refrences are just for convinience one can follow any source. 
 ...
 %}
+
+% This is a method from Reference 1
 function [tCorrec,xCorrec,DF] = Continuation(XGuess,NoofFam,CorrecPlot,G_var)
 
 

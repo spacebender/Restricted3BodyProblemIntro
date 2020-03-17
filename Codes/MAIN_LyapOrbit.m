@@ -148,7 +148,7 @@ Log
 ----
 1) Till lyapunov orbits parameters and all the plots fully completed on 9
    March 2020(Start date was 20 Feb 2020)
-2) Periodic Orbit manifolds (10 March 2020)
+2) Equilibrium Orbit manifolds (10 March 2020)
 ...
 %}
 

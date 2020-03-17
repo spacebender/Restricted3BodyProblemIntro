@@ -8,8 +8,7 @@ Created on feb 20 2020 15:50
 
 function X_Dot = CRes3BP_EOM(t,X,mu)
 
-% G_var = GlobalData;
-% mu = G_var.Constants.mu;
+
 if length(X)>4
 type = 'ThreeDim';
 else

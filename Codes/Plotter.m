@@ -1,10 +1,13 @@
-% Created on 10/3/2020 17:36
-% This function just plots call different plot functions 
-% Choose any of the four
+%{
+... Created on 10/3/2020 17:36
+Plot wrapper
+Choose any of the four
         % '2DContour'
         % '3DSurface'
         % 'EquilPointsNPrim'
         % 'L1L2NsecPrim'
+...
+%}
 function Plotter(G_var)
 fprintf('\n\n')
 fprintf('----------------------\n')

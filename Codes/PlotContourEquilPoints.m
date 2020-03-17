@@ -20,9 +20,7 @@ Outputs:
      4) Plots L1 L2 and secondary (to view with lyapunov orbits
 depending on the 'type'
 
-Modifications
--------------
-1) Case 'Only_EquilPts' added on 25/2/2020 17:00
+
  ------------------------------------------------------------------------
 ...
 %}

@@ -123,7 +123,7 @@ fprintf('mu value %f\n',G_var.Constants.mu)
 % Only user data and global variables are required to continue.
 [LyapOrb]              = LyapOrbitParameters(UserDat,G_var);
 %toc - takes approx 89 secs
-%% Save the Corrected IC's in .mat file
+%% Save the parameters in .mat file
 % --------------------------------------
 
 

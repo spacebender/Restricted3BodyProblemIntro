@@ -31,6 +31,10 @@ Dependencies
 1) InitialGuess(PointLoc)
 1) Continuation(XGuess,NoofFam,CorrecPlot)
 2) Integrator(fun,x0,[0 tspan]);
+
+NOTE : THIS FILE IS NOT USED CURRENTLY (WILL THROW ERRORS IF VARIABLES ARE
+NOT CORRECT - MANY MODIFICATIONS HAS BEEN CARRIED OUT AFTER DISCARDING THIS
+FILE)
 ...
 %}
 function [Corrected,PeriodicFam] = PerodicOrbitFamilydats(XGuess,EOM,NoofFam,CorrecPlot)

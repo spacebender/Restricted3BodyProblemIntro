@@ -3,6 +3,11 @@
 Created on 28/02/2020  16:31 and modified on 9/3/2020
 
 Plots the Lyapunov Orbits
+
+Some plots might be clear, some might(change the xLim,yLim pertaining to
+problem)
+
+I am not sure how to make it generic
 ...
 %}
 function PlotLyapOrb(G_var)

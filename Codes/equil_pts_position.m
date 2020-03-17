@@ -96,10 +96,12 @@ LagPts.Energy.L5 = jacobiValue3D([LagPts.L5,0,0,0,0],mu);
   [LagPts.SEigVal.L5,LagPts.USEigVal.L5,LagPts.CEigVal.L5,LagPts.SEigVec.L5,LagPts.USEigVec.L5,LagPts.CEigVec.L5,~,~] =...
      CalcEigenValVec(Dfmatrix3D([LagPts.L5,0,0,0,0],mu),0);
 
-% [LagPts.EigVec.L1,LagPts.EigVal.L1] = eig(Dfmatrix3D([LagPts.L1,0,0,0,0],mu));
-% [LagPts.EigVec.L2,LagPts.EigVal.L2] = eig(Dfmatrix3D([LagPts.L2,0,0,0,0],mu));
-% [LagPts.EigVec.L3,LagPts.EigVal.L3] = eig(Dfmatrix3D([LagPts.L3,0,0,0,0],mu));
-% [LagPts.EigVec.L4,LagPts.EigVal.L4] = eig(Dfmatrix3D([LagPts.L4,0,0,0,0],mu));
-% [LagPts.EigVec.L5,LagPts.EigVal.L5] = eig(Dfmatrix3D([LagPts.L5,0,0,0,0],mu));
+ % Lx         - x can be 1:5
+% SEigVal.Lx  - Stable Eigen Value
+% USEigVal.Lx - UnStable Eigen Value
+% CEigVal.Lx  - Center Eigen Value
+% SEigVec.Lx  - Stable Eigen Vector
+% USEigVec.Lx - UnStable Eigen Vector
+% CEigVec.Lx  - Center Eigen Vector
 
 end

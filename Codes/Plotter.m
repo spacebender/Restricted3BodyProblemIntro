@@ -22,13 +22,13 @@ PlotContourEquilPoints(G_var,'2DContour')
 figure()
 PlotContourEquilPoints(G_var,'EquilPointsNPrim')
 
-LyapunovPlotter(G_var) % seperate figures are defined inside 
+PlotLyapOrb(G_var) % seperate figures are defined inside 
  
 figure()
 fprintf('\n')
 fprintf('Plotting manifolds at equilibrium points ...\n')
 fprintf('\n')
-plotEqPointManifold(G_var)
+PlotEqPointManifold(G_var)
 
 
 

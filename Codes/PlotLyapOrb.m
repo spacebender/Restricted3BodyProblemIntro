@@ -1,4 +1,10 @@
-% Created on 28/02/2020  16:31 and modified on 9/3/2020
+%{
+...
+Created on 28/02/2020  16:31 and modified on 9/3/2020
+
+Plots the Lyapunov Orbits
+...
+%}
 function PlotLyapOrb(G_var)
 
 

@@ -6,11 +6,12 @@ This File is used for Integration uses "ODE113" - which uses "Adam
 BashForth Moulton" Integration method
 
 Inputs
-1) fun - Function to be integrated.
-2) x0 - Initial Condition vector
-3) tspan - Time duration of integration(Refer MATLAB's help for ODE's on
+1) G_var    - Requisite Global data
+2) fun      - Function to be integrated.
+3) x0       - Initial Condition vector
+4) tspan    - Time duration of integration(Refer MATLAB's help for ODE's on
    supplying tspan)
-4) type - 'forward' or 'backward' integration.
+4) type     - 'forward' or 'backward' integration.
 
 Outputs
 Same as the outputs of ODE113, 
@@ -29,7 +30,7 @@ Dependencies
 %}
 function [t,x] = Integrator(G_var,fun,x0,tspan,type)
 
-%  G_var = GlobalData;
+
 if nargin<3
 disp('provide function and/or initial condition')
 elseif nargin == 3

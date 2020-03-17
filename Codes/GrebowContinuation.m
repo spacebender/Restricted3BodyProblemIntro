@@ -1,3 +1,5 @@
+% A continuation method -  Natural Parameter - adopted from Grebow's Thesis
+% (Currently might not be used)
 function [tCorrec,xCorrec,DF] = GrebowContinuation(XGuess,NoofFam,CorrecPlot)
 
 family = 1;
@@ -7,7 +9,7 @@ fprintf('===============================================\n')
 fprintf('\nThe Guess X value is : [%f %f %f %f %f %f]\n',XGuess.one)
 [tCorrec(family,1),xCorrec(family,:),DF(:,:,family)] = DiffCorrec(XGuess.one,CorrecPlot);
 
- deltaS = 0.00012; % increasing thos will fail to converge.
+ deltaS = 0.00012; % increasing this will fail to converge(typical value is 0.0001).
 for family = 2:NoofFam
 
 fprintf('===============================================\n')

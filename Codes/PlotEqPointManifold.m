@@ -24,10 +24,6 @@ At both the equilibrium points the colors of the manifolds are
     UnStable positive - Red 
     UnStable Negative - Red dashed
 
-Modifications
--------------
-1) Case 'Only_EquilPts' added on 25/2/2020 17:00
- ------------------------------------------------------------------------
 ...
 %}
 function PlotEqPointManifold(G_var)

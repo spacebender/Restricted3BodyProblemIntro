@@ -67,6 +67,7 @@ switch type
  
  %The following are three double partial derivatives of the
  % effective potential U(x,y)
+ % First aprtial currently unused
 Ux =  x(1) - mu1*(x(1)+mu2)/r3 - mu2*(x(1)-mu1)/R3 ;
 Uy =  x(2) - mu1* x(2)     /r3 - mu2* x(2)     /R3 ;
 
@@ -99,6 +100,7 @@ R5= R2^2.5;
 % The following are the two partial derivatives of the
 % effective potential U(x,y)
 
+% This is first partial currently unused
 Ux =  x(1) - mu1*(x(1)+mu2)/r3 - mu2*(x(1)-mu1)/R3 ;
 Uy =  x(2) - mu1* x(2)     /r3 - mu2* x(2)     /R3 ;
 Uz = -(mu1*x(3))/r3 - (mu*x(3))/R3;    

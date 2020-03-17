@@ -34,14 +34,14 @@ Reference
 %}
 function[XGuess] = InitialGuess(PointLoc,G_var)
 
-%G_var = GlobalData;
+
 Ax1 = G_var.Constants.Ax1;
 Ax2 = G_var.Constants.Ax2;
 mu = G_var.Constants.mu;
 
 
 
-switch PointLoc
+switch PointLoc %Location of Equilibruim (L1/L2/L3)
 case 1
 x_e = G_var.LagPts.L1;
 mu_bar = mu*abs(x_e(1) -1+mu)^-3 + (1-mu)*abs(x_e(1) + mu)^-3 ;
@@ -69,6 +69,7 @@ XGuess(1).two = [(x_e(1)-Ax2),0, 0, 0,nu_y0.two, 0];
 
 XGuess(2).one = [(x_e(1)-Ax1),0,0,nu_y0.one];
 XGuess(2).two = [(x_e(1)-Ax2),0,0,nu_y0.two];
+
 case 3
     x_e = G_var.LagPts.L3;
 mu_bar = mu*abs(x_e(1) -1+mu)^-3 + (1-mu)*abs(x_e(1) + mu)^-3 ;

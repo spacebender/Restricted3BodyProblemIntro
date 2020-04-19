@@ -1,6 +1,4 @@
 # Restricted3BodyProblemIntro
-I am new to Git and its techniques . However I have managed to add what I can to help.
-
 
 This repository holds some introductory codes to Restricted Three Body Problem. Please read all the comments in the commenst section in the MAINLyapOrbit.m file before running the program
 
@@ -59,6 +57,7 @@ supplied this repo for the ones who like to start researchin this field/are new 
 **Use _MATLAB 2017b_ or later.**
 
 **Please feel free to contact me at "yfk2928@gmail.com" for suggestion/help/questions/anything you want.**
+
 Also can download from MATLAB File Exchange
 
 [![View MATLAB codes for restricted three body problem.  on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/74553-matlab-codes-for-restricted-three-body-problem)
